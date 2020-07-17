@@ -4,7 +4,8 @@ Use HRIRs to simulate sound coming from different directions.
 In this repository a noise and speech signal is provided.
 You can also add your own mono sound signal sampled with 48kHz.
 
-OUTPUT: A stereo wav file. When hearing with headphones it creates the impression of sound comming from certain directions.
+The function get_stereo() creates a stereo wav file simulating a sound signal coming from a defined direction.
+The function get_roundabout() simulates sound stepping around the head. 
 Important: The effect comes ONLY with headphones!
 You can hear an example of voice virtually going 360 degree around your head.
 
